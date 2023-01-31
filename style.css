@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+img {
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+    border: 1px solid white;
+}
+.image-container {
+    display: flex;
+    gap: 2em;
+}
+#search--input {
+    border: none;
+    border-bottom: 1px solid lightsalmon;
+    border-radius: 0px;
+    padding: .5em;
+}
+#search--input:focus-visible {
+    outline: 1px solid lightcoral;
+    border-radius: 8px;
+    border-bottom: none;
+}
+button {
+    background-color: white;
+    padding: .5em;
+    border: 1px solid lightsalmon;
+    border-radius: 8px;
+}
